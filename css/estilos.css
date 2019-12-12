@@ -1,49 +1,72 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 .rectangle{
     background: #181818;
     width: 100%;
-    height: 60px; 
+    height: 5%; 
     display: inline-block;
     text-align: right;
     margin: 0px;
     position: fixed;
     top: 0px;
     width: 100%;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.16);
+    padding: 12px;
+}
+
+.navegador{
+    padding-top: 2%;
+    padding: 0px;
+    align-content: space-between;
+}
+.logo{
+    text-align: start;
+    font-size: 30px;
+    margin: 0%;
+    padding: 0px;
+    position: absolute;
+    left: 10px;
+}
+
+.nombre{
+    font-family: 'Source Sans Pro' bold;
+    font-size: 120% ;
+    color: white;
+    margin: 0;
+    display: inline;
+    position: absolute;
+    left: 65px;
+}
+
+.nombre:hover{
+    cursor: pointer;
 }
 
 .optiones{
+    padding-top: 0.5%;
+    padding: 0px;
+    padding-right: 6%;
     margin: 0px;
-    padding: 5px;
-    padding-right: 50px;
+    display: inline;
 }
 
 .logo{
-    position: absolute;
-    top: 8px;
-    left: 15px;
     color: honeydew;
     margin-left: 15px;
     margin-right: 10px;
-}
-.main{
-    background: green;
-    width: 365px;
-    height: 260px;
-    margin-left: 15px;
-    margin-right: 10px;
-    border-radius: 10px;
 }
 
 ol{
     color: rgba(161, 159, 159, 0.966);
     display: inline-block;
-    font-size: 17px;
-    margin-top: 15px;
+    font-size: 1.3rem;
+    margin-top: 0px;
     padding-left: 10px;
-    font-family: Soucer;
+    font-family: 'Amiri', serif;
     font-style: bold;
 }
 
@@ -52,23 +75,48 @@ ol:hover{
     cursor: pointer;
 }
 
-.credits{
-    background: #3d6891e0;
-    text-align: center;
-    margin: 0px;
-    width: 100%;
-    height: 30px;
+
+.tarejetaPersonal{
+    background-color: white;
+    margin-top: 6%;
+    border-color: #707070;
+    border-style: solid;
+    border-width: 0.3px;   
+    width: 25%;
+    height: 80%;
+    margin-left: 3%;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.16);
+    position: fixed;
 }
 
-.fas fa-headset{
-    background-color: white;
-    width: 70px;
-    height: 70px;
+.contenedorimg{
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 6%;
+    bottom: 0%;
+    border-radius: 100%;
+    width: 50%;
+    height: 35%;
+    display: inline-block;
+}
+
+.credits{
+    background: #35363A;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 6%;
+    
 }
 .textfooter{
     color: white;
-    margin-top: 15px;
+    padding: 0.5%;
     font-family: sans-serif;
+    margin: 0px;
 }/*
 .contenetorImg{
     width: 50px;
