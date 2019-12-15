@@ -7,76 +7,48 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Amiri:700|Source+Sans+Pro:700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class="rectangle">
-        <nav class="navegator">
-            <span class="logo">
-                <i class="fas fa-headset" ></i>
-            </span>
-            <p class="nombre">JulianGT</p>
-            <Ul class="optiones">
-                <ol>Contactar</ol>
-                <ol>Proyectos</ol>
-                <ol>ESCod </ol>            
+    <header class="rectangle ">
+        <div class="container logo-container">
+            <div>
+            <i class="fas fa-headset logo"> Julian</i>
+            <span class="menu-items"> Menu</span>
+        </div>
+        <nav class="navegation">
+            <Ul>
+                <input type="text" name="search" id="search" placeholder="Busca algo Aqui" class="boxsearch">
+                <li><a href="#">Contactar </a></li>
+                <li><a href="#">Proyectos </a></li>
+                <li><a href="#">ESCod </a></li>            
             </Ul>
         </nav>
+        </div>
     </header>
-
-    <section>
-       <section class="tarejetaPersonal">
-            <div class="">
+    <main class="main">
+       <div class="tarejetaPersonal">
+            <div class="image-container">
                 <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
+                <h3>Roberto Juli&aacute;n</h3>
+                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
+                <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
             </div>
-            <p>
-                Roberto Juli&aacute;n
-            </p>
-       </section>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            <section class="redes">
+                <a href="http://"><i class="fab fa-github"> </i></a>
+                <a href="http://"> <i class="fab fa-instagram"> </i></a>
+                <a href="http://"><i class="fab fa-whatsapp"> </i></a>
+                <a href="http://"><i class="fab fa-facebook"> </i></a>
+           </section>
+        </div>
+       
+    </main>
+ 
     <footer class="credits">
+        <div class="container"></div>
         <p class="textfooter">Hecho por Roberto Juli&aacute;n Guti&eacute;rrez Tzun&uacute;n </p>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/showmenu.js"></script> 
 </body>
 </html>

@@ -2,125 +2,200 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
 }
 
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
 .rectangle{
     background: #181818;
-    width: 100%;
-    height: 5%; 
-    display: inline-block;
-    text-align: right;
-    margin: 0px;
+    color: white;
+    padding: 0.4rem 0;
     position: fixed;
-    top: 0px;
+    left:0;
+    top: 0;
     width: 100%;
-    box-shadow: 10px 10px 6px rgba(0,0,0,0.16);
-    padding: 12px;
 }
-
-.navegador{
-    padding-top: 2%;
-    padding: 0px;
-    align-content: space-between;
-}
-.logo{
-    text-align: start;
-    font-size: 30px;
-    margin: 0%;
-    padding: 0px;
-    position: absolute;
-    left: 10px;
-}
-
-.nombre{
-    font-family: 'Source Sans Pro' bold;
-    font-size: 120% ;
+.rectangle a{
     color: white;
+    text-decoration: none;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 1.5em;
     margin: 0;
-    display: inline;
-    position: absolute;
-    left: 65px;
 }
-
-.nombre:hover{
+.logo:hover{
     cursor: pointer;
 }
-
-.optiones{
-    padding-top: 0.5%;
-    padding: 0px;
-    padding-right: 6%;
-    margin: 0px;
-    display: inline;
+.name{
+    font-size: 1.3em;
+    margin: 0 0.3em;
 }
 
-.logo{
-    color: honeydew;
-    margin-left: 15px;
-    margin-right: 10px;
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-
-ol{
-    color: rgba(161, 159, 159, 0.966);
+.boxsearch{
+    width: 12rem;
+    height: 2.2em;
+    background-color: transparent;
+    border: 0.5px #4F9133 solid;
+    padding: 0 0.5rem 0 1.7rem;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.75em;
+    border-radius: 15px;
+}
+.navegation ul li{
     display: inline-block;
-    font-size: 1.3rem;
-    margin-top: 0px;
-    padding-left: 10px;
-    font-family: 'Amiri', serif;
-    font-style: bold;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 0.4rem;
+    transition: all 0.3s linear;
+    font-size: 1.2rem;
 }
 
-ol:hover{
-    color: white;
-    cursor: pointer;
+.navegation ul li a:hover{
+    background-color: #4a4a4a;
+    border-radius: 5px;
 }
 
+
+.menu-items{
+    display: none;
+}
+.main{
+    padding: 6rem 2rem;
+    display: block;
+}
 
 .tarejetaPersonal{
     background-color: white;
-    margin-top: 6%;
-    border-color: #707070;
-    border-style: solid;
-    border-width: 0.3px;   
-    width: 25%;
-    height: 80%;
-    margin-left: 3%;
-    margin-right: 10px;
+    border: #707070 0.3px solid;
+    width: 370px;
+    height: 520px;
     border-radius: 15px;
     box-shadow: 10px 10px 6px rgba(0,0,0,0.16);
-    position: fixed;
+}
+.image-container{
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+
 }
 
 .contenedorimg{
-    position: absolute;
-    right: 25%;
-    left: 25%;
-    top: 6%;
-    bottom: 0%;
     border-radius: 100%;
-    width: 50%;
-    height: 35%;
-    display: inline-block;
+    width: 160px;
+    height: 160px;
+}
+
+.text-opacity{
+    color: rgba(0,0,0,0.56);
+    line-height: 0em;
+    font-size: 0.8em;
+}
+
+.redes{
+    text-align: center;
+    height: 200px;
+}
+.redes a i{ 
+    color: black;
+    font-size: 1.8em;
+    margin-top: 140px;
+    transition: linear 0.3s;
+    
+}
+
+.redes a i:hover{
+    color: #0966d1;
 }
 
 .credits{
     background: #35363A;
     text-align: center;
-    margin-top: 6%;
-    margin-bottom: 0%;
-    width: 100%;
-    height: 6%;
-    
+    margin-top: 6rem;
+    padding: 1rem 0;    
 }
 .textfooter{
     color: white;
-    padding: 0.5%;
-    font-family: sans-serif;
-    margin: 0px;
-}/*
-.contenetorImg{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin-left: 15px;
+    font-weight: unset;
+    font-size: 1em;
+    margin: 5px;
+}
+
+/* Para 960px */  
+@media only screen and (max-width: 768px) and (min-width: 360px) {  
+    .logo-container{
+        padding-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }  
+    .menu-items{
+        position: fixed;
+        right: 2em;
+        top: 1em;
+        display: inline-block;
+        transition: all 0.3s linear;
+        padding: 0 0.3em;
+    } 
+    .menu-items:hover{
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #4a4a4a;
+    }
+    .navegation {
+        padding-top: 1rem;
+        width: 100%;
+    }
+    .navegation ul li{
+        display: block;
+    }
+    .navegation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.3s linear;
+        font-size: 1.4rem;
+    }
+    .navegation ul li a:hover{
+        background-color: #4a4a4a;
+        border-radius: 5px;
+    }
+    
+    /* ocultar o mostrar la lista de opciones */
+    .navegation ul{
+        display: none;
+    }
+    .navegation ul.show{
+        display: block;
+    }
+    /* main.show{
+        margin-top: 10rem;
+    } */
+
+    .main{
+        padding: 6rem 0;
+        margin: 0;
+    }
+
+    .tarejetaPersonal{
+        margin: 0 auto;
+    }
+}  
    
