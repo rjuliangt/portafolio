@@ -460,6 +460,7 @@ section{
     }
 
     .section {
+        display: block;
         margin-top: 3rem;
         text-align: center;
     }   
@@ -477,6 +478,11 @@ section{
         left: 1.7rem;
         display: block;
         margin: 0 auto;
+    }
+    .credits{
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 
 }  
