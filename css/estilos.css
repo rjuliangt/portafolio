@@ -24,7 +24,7 @@ body{
 .container{
     width: 85%;
     margin: 0 auto;
-    max-width: 1146px;
+    max-width: 1280px;
 }
 .logo-container {
     display: flex;
@@ -345,10 +345,15 @@ textarea{
     url('/fonts/SourceSansPro-Bold.ttf') format('truetype');
 }
 
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
 .credits{
     position: relative;
     bottom: 0px;
-    right: 0;
     width: 100%;
     background: #35363A;
     text-align: center;
