@@ -368,7 +368,7 @@ footer{
     margin: 5px;
 }
 section{
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     text-align: center;
 }
@@ -380,7 +380,7 @@ section{
     display: inline-block;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 359px) {  
+@media only screen and (max-width: 834px) and (min-width: 350px) {  
     .logo-container{
         padding-top: 0.5rem;
         display: flex;
@@ -439,7 +439,7 @@ section{
     }
     .main{
         justify-content: center;
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
     }
     .tarejetaPersonal{
@@ -454,10 +454,14 @@ section{
         display: block;
         justify-content: center;
     } 
+    section{
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .section {
         margin-top: 3rem;
-         text-align: center;
+        text-align: center;
     }   
    
     .container-chat{
