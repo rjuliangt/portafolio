@@ -5,90 +5,188 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portafolio Juli&aacute;n</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Amiri:700|Raleway|Source+Sans+Pro:700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="imagens/images-svg/chevron-right-solid.svg">
 </head>
 <body>
-    <header class="rectangle ">
+    <header class="header">
         <div class="container logo-container">
             <div>
-            <p class="name">JulianGT</p>
-            <span class="menu-items"> Menu</span>
-        </div>
-        <nav class="navegation">
+            <a href="#card-personnel"><p class="name"> Juli&aacute;nGT</p></a>
+            <span class="menu-items">Menu</span>
+            </div>
+        <nav class="navegation" id="navegation">
             <Ul><i class="fas fa-search"></i>
-                <input type="text" name="search" id="search" placeholder="Busca algo Aqui" class="boxsearch">
+                <input type="text" name="search" id="search" placeholder="Busca algo Aqui" class="box-search">
                 <li><a href="#">Contactar </a></li>
                 <li><a href="#">Proyectos </a></li>
-                <li><a href="#">ESCod </a></li>            
+                <li><a href="http://escodgt.com/" target="_blank"> ESCod </a></li>            
             </Ul>
         </nav>
         </div>
     </header>
     <main class="main">
-       <div class="tarejetaPersonal">
+       <div class="card-personnel" id="card-personnel">
             <div class="image-container">
-                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
-                <h3>Roberto Juli&aacute;n</h3>
-                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
+                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="circle-img" title="Fotografia">
+            </div>
+                <div class="card-name"><h3>Roberto Juli&aacute;n</h3></div>
+            <div>    
+                <p class="text-opacity"><i class="fas fa-map-marker-alt"> </i>  Totonicap&aacute;n, Guatemala </p>
                 <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
             </div>
             <section class="redes">
-                <ul>Habilidades:
-                    <li>Java SE</li >
+                <ul>Manejo de
+                    <li>Java</li >
                     <li>Python</li>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>PHP</li>
                     <li>JQuery</li>
+                    <li>JavaScript</li>
+                    <li>Boostrap</li>
                 </ul>
-                <a href="http://"><i class="fab fa-github"> </i></a>
-                <a href="http://"> <i class="fab fa-instagram"> </i></a>
-                <a href="http://"><i class="fab fa-whatsapp"> </i></a>
-                <a href="http://"><i class="fab fa-facebook"> </i></a>
+                <a href="https://www.github.com/rjuliangt" target="_blank" title="GitHub"><i class="fab fa-github"> </i></a>
+                <a href="https://www.instagram.com/julian._tz" alt="instagram" target="_blank" title="Instagram"> <i class="fab fa-instagram"> </i></a>
+                <a href="http://"><i class="fab fa-whatsapp" target="_black" title="Whatsapp"> </i></a>
+                <a href="https://www.facebook.com/julian.tzunun.7" target="_blank"><i class="fab fa-facebook" title="Facebook"> </i></a>
            </section>
         </div>
-        <div class="container-proyects">
-            <div class="box-proyects">
-                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
-                <h3>Roberto Juli&aacute;n</h3>
-                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
-                <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
-            </div>
+        <div>
+            <i class="far fa-comments float-chat" id="chatFloat"></i>
         </div>
-        <div class="container-proyects">
-            <div class="box-proyects">
-                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
-                <h3>Roberto Juli&aacute;n</h3>
-                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
-                <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
+        <div class="box-container-proyects">
+            <p class="title-proyect">
+                Proyectos
+            </p>
+            <div class="container-img-proyect">
+                <img src="imagens/camp.jpeg" alt="imagen del proyecto">
             </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects">Descripccion: Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
         </div>
-        <div class="container-proyects">
-            <div class="box-proyects">
-                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
-                <h3>Roberto Juli&aacute;n</h3>
-                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
-                <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
+        <div class="box-container-proyects">
+            <p class="title-proyect">
+            </p>
+            <div class="container-img-proyect">
+                <img src="imagens/mountain.jpeg" alt="imagen del proyecto">
             </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects"> Descripccion:  Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
         </div>
-        <div class="container-proyects">
-            <div class="box-proyects">
-                <img src="imagens/elClubo.jpg" alt="Imagen elClubo" class="contenedorimg">
-                <h3>Roberto Juli&aacute;n</h3>
-                <p class="text-opacity"><i class="fas fa-map-marker-alt"></i>  Totonicap&aacute;n, Guatemala </p>
-                <p class="text-opacity">Estudiante de Ingenier&iacute;a en Sistemas</p>
+        <div class="box-container-proyects">
+            <div class="container-img-proyect">
+                <img src="imagens/balloon.jpeg" alt="imagen del proyecto">
             </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects">Descripccion: Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
         </div>
-       
-    </main>
- 
+        <div class="box-container-proyects">
+            <div class="container-img-proyect">
+                <img src="imagens/camp.jpeg" alt="imagen del proyecto">
+            </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects">Descripccion: Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
+        </div>
+        <div class="box-container-proyects">
+            <div class="container-img-proyect">
+                <img src="imagens/beach.jpeg" alt="imagen del proyecto">
+            </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects">Descripccion: Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
+        </div>
+        <div class="section">
+        <div class="box-container-proyects">
+            <div class="container-img-proyect">
+                <img src="imagens/balloon.jpeg" alt="imagen del proyecto">
+            </div>
+            <p>Proyecto realizado en Python</p>
+            <p> <strong>Fecha:</strong> 28-10-2019</p>
+            <p class="desc-proyects">Descripccion: Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias 
+                desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) </p>
+        </div>
+    <div class="sliderdos">
+    <div class="slider-section">
+        <ul class="slider">
+            <li><img src="imagens/balloon.jpeg" alt="">
+                <section class="title-slider">
+                    <h3>Lorem ipsum 1</h3>
+                </section>
+            </li>
+            <li><img src="imagens/beach.jpeg" alt="">
+                <section class="title-slider">
+                    <h3>Lorem ipsum 2</h3>
+                </section>
+            </li>
+            <li><img src="imagens/camp.jpeg" alt="">
+                <section class="title-slider">
+                    <h3>Lorem ipsum 3</h3>
+                </section>
+            </li>
+        </ul>
+        <ol class="pagination-slider">
+        </ol>
+        <div class="arrow-left"> 
+            <i class="fas fa-caret-left"></i>
+        </div>
+        <div class="arrow-right">
+            <i class="fas fa-caret-right"></i>
+        </div>
+        </div>
+    </div>
+    </div>
+</main>
+    <div class="container-chat" id="container-chat">
+    <form action="" class="form-menssager" id="formChat">
+        <section class="header-chat"> 
+        <p>Quieres contactarte?</p>
+        <i class="fas fa-times exit"></i>
+        </section>
+        
+        <input type="text" placeholder="Ingresa tu nombre" required="" class="input-name in">
+        <input type="email" placeholder="Ingresa tu correo" required="" class="input-pass in">
+        <!-- <input type="text" placeholder="Escribe tu mensaje" required="" class="input-text"> -->
+        <textarea name="" id="" placeholder="Escribe tu mensaje" required="" ></textarea>
+        <button type="submit" class="button-send"> Enviar</button>
+    </form>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente dolorum expedita quasi voluptas! Voluptatibus, doloremque? Quas ducimus provident sit commodi beatae molestias corporis debitis magni, labore ipsum, hic eos.</p>
+    
+
+    
     <footer class="credits">
-        <div class="container"></div>
-        <p class="textfooter">Hecho por Roberto Juli&aacute;n Guti&eacute;rrez Tzun&uacute;n </p>
+        <div>
+        <p class="text-footer">Hecho por Roberto Juli&aacute;n Guti&eacute;rrez Tzun&uacute;n </p>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/showmenu.js"></script> 
+    <script src="scripts/slayder.js"></script>
+    <script src="scripts/showchat.js"></script>
 </body>
 </html>
