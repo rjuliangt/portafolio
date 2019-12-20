@@ -75,7 +75,7 @@ body{
     display: none;
 }
 .main{
-    width: 85%;
+    width: 100%;
     margin: 50px auto ;
     display: flex;
     justify-content: space-between;
