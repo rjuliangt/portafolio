@@ -1,10 +1,12 @@
 body{
+    width: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 1.4em;
+    overflow-x: hidden;
 }
 .header{
     background: #181818;
@@ -73,7 +75,7 @@ body{
     display: none;
 }
 .main{
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     padding: 3rem 2rem;
     display: flex;
@@ -192,8 +194,6 @@ body{
     box-shadow: 8px 8px 6px rgba(0,0,0,0.16);
 }
 .slider-section {
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
     height: 400px;
@@ -438,6 +438,7 @@ section{
         display: block;
     }
     .main{
+        padding: 3rem 0;
         justify-content: center;
         width: 100%;
         margin: 0 auto;
@@ -489,6 +490,7 @@ section{
  
 @media only screen and (max-width: 1168px) and (min-width: 835px) {
     .main {
+        padding:  3rem 0;
         max-width: 800px ;
     }
     .card-personnel {
